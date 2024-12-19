@@ -1,0 +1,42 @@
+{
+  "name": "@longnc/themartec-esdoc-brand-plugin",
+  "version": "1.0.2",
+  "description": "A brand plugin for ESDoc",
+  "author": "Long Nguyen <long.nguyen@themartec.com>",
+  "homepage": "https://themartec.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themartec/esdoc-plugins.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "themartec-esdoc": "^1.0.0",
+    "mocha": "^11.0.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
+  },
+  "keywords": [
+    "esdoc",
+    "brand",
+    "title",
+    "plugin"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "main": "src/Plugin.js",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/themartec/esdoc-plugins/issues"
+  }
+}

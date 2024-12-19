@@ -1,0 +1,54 @@
+{
+  "name": "@longnc/themartec-ice-cap",
+  "version": "1.0.0",
+  "description": "Programmable DOM-based HTML template library.",
+  "author": "Long Nguyen <long.nguyen@themartec.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themartec/esdoc-plugins.git"
+  },
+  "scripts": {
+    "build": "bash ./script/build.sh",
+    "test": "bash ./script/test.sh",
+    "test-es5": "bash ./script/test-es5.sh",
+    "esdoc": "bash ./script/esdoc.sh",
+    "start": "bash ./script/server.sh"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "color-logger": "^0.0.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@longnc/themartec-esdoc": "^1.0.0",
+    "@babel/plugin-transform-destructuring": "^7.25.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "@babel/plugin-transform-parameters": "^7.25.9",
+    "@babel/plugin-transform-spread": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "coveralls": "^3.1.1",
+    "esdoc-importpath-plugin": "^1.0.2",
+    "fs-extra": "^11.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^11.0.1"
+  },
+  "keywords": [
+    "html",
+    "template"
+  ],
+  "files": [
+    "out/src",
+    "README.md"
+  ],
+  "main": "out/src/IceCap.js",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/themartec/esdoc-plugins/issues"
+  },
+  "homepage": "https://github.com/themartec/esdoc-plugins#readme"
+}

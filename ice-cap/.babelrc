@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-destructuring",
+    "@babel/plugin-transform-spread",
+    "@babel/plugin-transform-modules-commonjs",
+    "@babel/plugin-transform-parameters"
+  ]
+}
