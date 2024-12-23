@@ -1,7 +1,7 @@
 # ESDoc Standard Plugin
 ## Install
 ```bash
-npm install esdoc-standard-plugin
+npm install @longnc/themartec-esdoc-standard-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-standard-plugin
   "destination": "./doc",
   "plugins": [
     {
-      "name": "esdoc-standard-plugin",
+      "name": "@longnc/themartec-esdoc-standard-plugin",
       "option": {
         "lint": {"enable": true},
         "coverage": {"enable": true},
@@ -58,7 +58,7 @@ npm install esdoc-standard-plugin
 }
 ```
 
-The `esdoc-standard-plugin` is a glue plugin. The following plugins are used by this.
+The `@longnc/themartec-esdoc-standard-plugin` is a glue plugin. The following plugins are used by this.
 - [esdoc-lint-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-lint-plugin)
 - [esdoc-coverage-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-coverage-plugin)
 - [esdoc-accessor-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-accessor-plugin)
@@ -75,4 +75,4 @@ The `esdoc-standard-plugin` is a glue plugin. The following plugins are used by 
 MIT
 
 ## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
+[Long Nguyen <long.nguyen@themartec.com>](https://github.com/longthemartec)

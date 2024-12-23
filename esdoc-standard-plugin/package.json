@@ -1,30 +1,30 @@
 {
-  "name": "esdoc-standard-plugin",
+  "name": "@longnc/themartec-esdoc-standard-plugin",
   "version": "1.0.0",
   "description": "A standard plugin for ESDoc",
-  "author": "h13i32maru",
+  "author": "Long Nguyen <long.nguyen@themartec.com>",
   "homepage": "https://github.com/esdoc/esdoc-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esdoc/esdoc-plugins"
+    "url": "git+https://github.com/esdoc/esdoc-plugins.git"
   },
   "dependencies": {
-    "esdoc-lint-plugin": "^1.0.0",
-    "esdoc-coverage-plugin": "^1.0.0",
+    "@longnc/themartec-esdoc-brand-plugin": "^1.0.2",
+    "@longnc/themartec-esdoc-publish-html-plugin": "^1.0.0",
     "esdoc-accessor-plugin": "^1.0.0",
+    "esdoc-coverage-plugin": "^1.0.0",
     "esdoc-external-ecmascript-plugin": "^1.0.0",
-    "esdoc-brand-plugin": "^1.0.0",
-    "esdoc-undocumented-identifier-plugin": "^1.0.0",
-    "esdoc-unexported-identifier-plugin": "^1.0.0",
-    "esdoc-publish-html-plugin": "^1.0.0",
-    "esdoc-type-inference-plugin": "^1.0.0",
     "esdoc-integrate-manual-plugin": "^1.0.0",
-    "esdoc-integrate-test-plugin": "^1.0.0"
+    "esdoc-integrate-test-plugin": "^1.0.0",
+    "esdoc-lint-plugin": "^1.0.0",
+    "esdoc-type-inference-plugin": "^1.0.0",
+    "esdoc-undocumented-identifier-plugin": "^1.0.0",
+    "esdoc-unexported-identifier-plugin": "^1.0.0"
   },
   "devDependencies": {
-    "esdoc": "latest",
-    "mocha": "2.5.3"
+    "@longnc/themartec-esdoc": "^1.0.0",
+    "mocha": "^11.0.1"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -41,5 +41,11 @@
     "src",
     "README.md"
   ],
-  "main": "src/Plugin.js"
+  "main": "src/Plugin.js",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/esdoc/esdoc-plugins/issues"
+  }
 }
