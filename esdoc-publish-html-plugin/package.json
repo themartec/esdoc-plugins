@@ -1,6 +1,6 @@
 {
   "name": "@longnc/themartec-esdoc-publish-html-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A publish HTML plugin for ESDoc",
   "author": "Long Nguyen <long.nguyen@themartec.com>",
   "homepage": "https://github.com/themartec/esdoc-plugins",
@@ -15,8 +15,7 @@
     "cheerio": "^1.0.0",
     "escape-html": "^1.0.3",
     "fs-extra": "^11.2.0",
-    "marked": "^15.0.4",
-    "taffydb": "^2.7.3"
+    "marked": "^15.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",

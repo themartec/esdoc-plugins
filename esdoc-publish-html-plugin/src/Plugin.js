@@ -1,6 +1,5 @@
 import path from 'path';
-import {taffy} from 'taffydb';
-import IceCap from 'ice-cap';
+import IceCap from '@longnc/themartec-ice-cap';
 import DocBuilder from './Builder/DocBuilder';
 import StaticFileBuilder from './Builder/StaticFileBuilder.js';
 import IdentifiersDocBuilder from './Builder/IdentifiersDocBuilder.js';
@@ -30,7 +29,7 @@ class Plugin {
   _exec(tags, writeFile, copyDir, readFile) {
     IceCap.debug = !!this._option.debug;
 
-    const data = taffy(tags);
+    const data = Array.isArray(tags) ? tags : [tags];
 
     //bad hack: for other plugin uses builder.
     DocBuilder.createDefaultBuilder = () => {

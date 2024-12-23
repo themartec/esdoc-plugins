@@ -1,6 +1,6 @@
 {
   "name": "@longnc/themartec-esdoc-standard-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A standard plugin for ESDoc",
   "author": "Long Nguyen <long.nguyen@themartec.com>",
   "homepage": "https://github.com/esdoc/esdoc-plugins",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@longnc/themartec-esdoc-brand-plugin": "^1.0.2",
-    "@longnc/themartec-esdoc-publish-html-plugin": "^1.0.0",
+    "@longnc/themartec-esdoc-publish-html-plugin": "^1.0.1",
     "esdoc-accessor-plugin": "^1.0.0",
     "esdoc-coverage-plugin": "^1.0.0",
     "esdoc-external-ecmascript-plugin": "^1.0.0",
